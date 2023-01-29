@@ -57,4 +57,10 @@ function creatPixelsBoard(width, heigth){
   })
 
   addClassAndBackgroundToColors(palleteColors)
-  creatPixelsBoard(50, 50)
+  creatPixelsBoard(5, 5)
+
+  /*Codigos alterados com a ajuda na consulta dos codigos de
+  ERICKSON SIQUEIRA
+  Segue o LINK: 
+  https://github.com/tryber/sd-015-b-project-pixels-art/pull/61/commits/a47aa3bcb09bb7542e05ee5d41e97dfc2220e91e
+  */

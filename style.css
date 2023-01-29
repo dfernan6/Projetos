@@ -1,51 +1,29 @@
 @charset "UTF-8";
 body {
     background-color: "grey";
-    font-family: 'Mochiy Pop P One', sans-serif;
-}
-
-h1 {
-    text-align: center;
-    color: rgba(0,0,0,0.5);
-    padding: 70px;
-    font-size: 60px;
-    margin-right: 110px;
-    text-shadow: rgb(255, 255, 255) 5px 2px 5px;
-}
-
-header {
-  background-image: url("/mario-banner.png");
-  background-color: rgb(56, 139, 206);
-  background-repeat: no-repeat;
-  height: 285px;
-  margin-top: -5px;
-  border: solid 5px;
-  border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .color {
     display: inline-block;
     margin-left: 10px;
     border: 1px solid black;
-    border-radius: 50px;
-    min-width: 40px;
-    min-height: 40px;
+    min-width: 75px;
+    min-height: 75px;
     cursor: pointer;
   }
 
 .pixel {
     display: inline-block;
     border: 1px solid black;
-    width: 10px;
-    height: 10px;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
-    margin-top: -100px;
 }
 
 .pixel-line {
-    height: 10px;
-    width: 600px;
-    margin-right: -900;
+    max-height: 40px;
+    width: 100%;
   }
 
 footer {
@@ -54,11 +32,6 @@ footer {
 button {
     margin-bottom: 10px;
 }
-
-img {
-    padding: 10px;   
-}
-
-section {
-    width: 600px;
+.colors-ul {
+ border-radius: 15px;
 }
