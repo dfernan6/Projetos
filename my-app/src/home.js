@@ -1,11 +1,11 @@
 import React from "react";
+//import Script from "./script";
 
 class Home extends React.Component{
     render(){
         return(
-<div>
+<body>
 <header>
-<link href="style.css" rel="stylesheet"/>
 <h1 id="title">Paleta de Cores</h1>
 </header>
 <section id="color-palette">  
@@ -18,8 +18,7 @@ class Home extends React.Component{
 <footer>  
 	&copy<b><i>Danilo Fernandes</i></b>
 </footer>
-    <script language="javascript" src="script.js"></script>
-</div>
+</body>
         );
     }
 }
