@@ -1,3 +1,4 @@
+
 let palleteColors = ["rgb(0, 0, 0)", "rgb(255, 0, 0)", "rgb(0, 255, 0)", "rgb(0, 0, 255)"];
 let colorsUl = document.querySelector(".colors-ul");
 let pixelBoard = document.getElementById("pixel-board");
@@ -34,7 +35,7 @@ function creatPixelsBoard(width, heigth){
       }
     }
   }
-
+      
   colorsUl.addEventListener('click', function(e) {
     let element = e.target
     backgroundColorSelected = element.style.backgroundColor
@@ -55,12 +56,6 @@ function creatPixelsBoard(width, heigth){
       pixel.style.backgroundColor = 'rgb(255,255,255)'
     }
   })
-
+  
   addClassAndBackgroundToColors(palleteColors)
   creatPixelsBoard(5, 5)
-
-  /*Codigos alterados com a ajuda na consulta dos codigos de
-  ERICKSON SIQUEIRA
-  Segue o LINK: 
-  https://github.com/tryber/sd-015-b-project-pixels-art/pull/61/commits/a47aa3bcb09bb7542e05ee5d41e97dfc2220e91e
-  */
